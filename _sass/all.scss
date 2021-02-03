@@ -50,7 +50,21 @@ h2 {
     padding: 1.5em;
     font-size: 1.2em;
 }
+.statcard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 30px;
+  background-color: white;
+  border-radius: .375rem;
+  padding: 1.5em;
+  font-size: 1.2em; 
+}
 
+.card:hover {
+  background-color:black;
+  color: white;
+}
 a {
     color: black;
 }
